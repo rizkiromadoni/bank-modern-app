@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
 
-      <div className={`${style.paddingX} ${style.flexCenter}`} >
+      <div className={`${style.paddingX} ${style.flexCenter} mx-auto`} >
         <div className={`${style.boxWidth}`}>
           <Navbar />
         </div>
